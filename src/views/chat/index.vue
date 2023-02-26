@@ -71,7 +71,7 @@ async function onConversation() {
     +uuid,
     {
       dateTime: new Date().toLocaleString(),
-      text: 'Aha, Thinking...',
+      text: '^_^, Thinking...',
       loading: true,
       inversion: false,
       error: false,
@@ -165,7 +165,7 @@ async function onRegenerate(index: number) {
     index,
     {
       dateTime: new Date().toLocaleString(),
-      text: 'Aha, Let me think again...',
+      text: '^_^, Let me think again...',
       inversion: false,
       error: false,
       loading: true,
@@ -319,7 +319,7 @@ onUnmounted(() => {
         <template v-if="!dataSources.length">
           <div class="flex items-center justify-center mt-4 text-center text-neutral-300">
             <SvgIcon icon="ri:bubble-chart-fill" class="mr-2 text-3xl" />
-            <span>Aha~</span>
+            <span>^_^ ~</span>
           </div>
         </template>
         <template v-else>
@@ -358,7 +358,7 @@ onUnmounted(() => {
           v-model:value="prompt"
           type="textarea"
           :autosize="{ minRows: 1, maxRows: 2 }"
-          placeholder="😊Ask me anything..."
+          placeholder="😊 Ask me anything..."
           @keypress="handleEnter"
         />
         <NButton type="primary" :disabled="buttonDisabled" @click="handleSubmit">
