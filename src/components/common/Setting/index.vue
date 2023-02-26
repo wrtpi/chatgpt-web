@@ -62,9 +62,7 @@ watch(
         </h2>
         <hr>
         <p>
-          此项目开源于
-          <a class="text-blue-600" href="https://github.com/Chanzhaoyu/chatgpt-web" target="_blank">Github</a>
-          如果你觉得此项目对你有帮助，请帮我点个 Star，谢谢！
+				ChatGPT是一种大型语言模型由OpenAI训练的人工智能。它可以帮助你生成自然语言表达，以及更好地理解交流。
         </p>
         <hr>
         <p>API方式：{{ config?.apiModel ?? '-' }}</p>
