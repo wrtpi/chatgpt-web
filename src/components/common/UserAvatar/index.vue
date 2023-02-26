@@ -11,9 +11,6 @@ import { GithubSite } from '@/components/custom'
       <h2 class="font-bold text-md">
         JunJun
       </h2>
-
-
-      </p>
     </div>
   </div>
 </template>
