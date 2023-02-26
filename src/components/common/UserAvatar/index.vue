@@ -1,7 +1,3 @@
-<script setup lang='ts'>
-import { GithubSite } from '@/components/custom'
-</script>
-
 <template>
   <div class="flex items-center">
     <div class="w-10 h-10 overflow-hidden rounded-full">
