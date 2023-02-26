@@ -358,7 +358,7 @@ onUnmounted(() => {
           v-model:value="prompt"
           type="textarea"
           :autosize="{ minRows: 1, maxRows: 2 }"
-          placeholder="😊 Ask me anything..."
+          placeholder="😊 您可以问我任何问题 Ask me anything..."
           @keypress="handleEnter"
         />
         <NButton type="primary" :disabled="buttonDisabled" @click="handleSubmit">
